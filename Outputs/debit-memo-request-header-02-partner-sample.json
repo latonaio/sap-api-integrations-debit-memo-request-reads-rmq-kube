@@ -1,0 +1,38 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-debit-memo-request-reads/SAP_API_Caller/caller.go#L65",
+	"function": "sap-api-integrations-debit-memo-request-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"DebitMemoRequest": "70000000",
+			"PartnerFunction": "SP",
+			"Customer": "10100001",
+			"Supplier": ""
+		},
+		{
+			"DebitMemoRequest": "70000000",
+			"PartnerFunction": "BP",
+			"Customer": "10100001",
+			"Supplier": ""
+		},
+		{
+			"DebitMemoRequest": "70000000",
+			"PartnerFunction": "PY",
+			"Customer": "10100001",
+			"Supplier": ""
+		},
+		{
+			"DebitMemoRequest": "70000000",
+			"PartnerFunction": "SH",
+			"Customer": "10100001",
+			"Supplier": ""
+		},
+		{
+			"DebitMemoRequest": "70000000",
+			"PartnerFunction": "P1",
+			"Customer": "",
+			"Supplier": ""
+		}
+	],
+	"time": "2022-01-27T23:13:18+09:00"
+}
