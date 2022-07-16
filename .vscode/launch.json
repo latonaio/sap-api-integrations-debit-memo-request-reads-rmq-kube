@@ -9,7 +9,17 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceRoot}"
+            "program": "${workspaceRoot}",
+            "env":{
+                "RMQ_USER":"guest",
+                "RMQ_PASS":"guest",
+                "RMQ_ADDRESS":"192.168.128.185",
+                "RMQ_PORT":"32094",
+                "RMQ_VHOST":"sap-test",
+                "RMQ_QUEUE_FROM":"sap-api-integrations-product-master-reads-rmq-kube",
+                "RMQ_QUEUE_TO":"sap-sql-update-kube",
+                "SAP_API_BASE_URL":"https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap"
+            }
         }
     ]
 }
